@@ -1,0 +1,18 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon startFromScratch="false">
+    <tabs>
+
+      <tab idMso="TabData">
+        <group id="xlEXPORT10" label="Add-In" insertAfterMso="GroupDataTools">
+
+          <button id="xlexportbutton1" label="Export" size="large" 
+		onAction="ToolStartenIconXLexport" image="xlEXPORTlogo"
+		screentip="Add-In von Marco Krapf (v1.0)"
+		supertip="Tool zum Exportieren von Tabelleninhalten als Text- oder CSV-Datei mit vielen Sonderfunktionen."/>
+        
+	 </group>
+      </tab>
+
+    </tabs>
+  </ribbon>
+</customUI>
